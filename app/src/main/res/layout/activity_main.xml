@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1bee7"
+    android:gravity="center"
+    android:weightSum="8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="25dp"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="Currency-Converter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="1"
+        android:inputType="numberDecimal"
+        android:id="@+id/edit"
+        android:hint="Enter the Indian Rupees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_orange_dark"
+        android:text="USD"
+        android:id="@+id/dollar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_red_light"
+        android:text="eur"
+        android:id="@+id/eur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_purple"
+        android:text="yen"
+        android:id="@+id/yen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="cad"
+        android:id="@+id/cad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="aud"
+        android:id="@+id/aud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="zar"
+        android:id="@+id/zar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:textColor="#fff"
+        android:layout_margin="50dp"
+        android:background="#283593"
+        android:text="Clear"
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
